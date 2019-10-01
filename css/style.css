@@ -41,6 +41,12 @@ img {
   background-color: #ddd;
 }
 
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
+
 main {
   max-width: 900px;
   margin: auto;
@@ -85,6 +91,21 @@ main {
       -ms-flex: 0 1 60vw;
           flex: 0 1 60vw;
   margin: 0;
+}
+
+@media (min-width: 500px) {
+  #landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  #landing #landing-text {
+    min-height: 100vh;
+  }
+  #landing #landing-image {
+    min-height: 100vh;
+  }
 }
 
 #header {

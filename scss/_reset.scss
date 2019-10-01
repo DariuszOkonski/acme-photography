@@ -37,4 +37,8 @@ img {
   &:hover {
     background-color: #ddd;
   }
+
+  @media(min-width: 700px) {
+    padding: 1rem 3rem;
+  }
 }
