@@ -1,0 +1,19 @@
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+
+  h2 {
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
